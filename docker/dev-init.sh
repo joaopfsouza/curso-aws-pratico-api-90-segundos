@@ -4,6 +4,7 @@
 echo "Installing API dependencies..."
 cd www/api/
 npm i
+npm run clean && npm run build
 
 # Build Docker images
 echo "Building Docker Images..."
